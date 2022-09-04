@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FastCampus Django</title>
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+           
+        <main class="px-3" style="text-align: center">
+          <h1> Hello! {{ user }}</h1>
+          <p class="lead"> KT/FastCampus Django&Python Final Project </p>
+          <p class="lead"> 이대호 </p>
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+          </p>
+        </main>
+
+      </div>
+
+<!-- 
+
+      <h1>Hello, {{ user }}</h1>
+      <p class="lead">
+        Cover is a one-page template for building simple and beautiful home
+        pages. Download, edit the text, and add your own fullscreen background
+        photo to make it your own.
+      </p>
+      <p class="lead">
+        <a
+          href="#"
+          class="btn btn-lg btn-secondary fw-bold border-white bg-white"
+          >Learn more</a
+        > -->
+      </p>
+    </main>
+  </body>
+</html>
+
+{% endblock %}
