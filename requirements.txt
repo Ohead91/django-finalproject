@@ -17,7 +17,7 @@ cryptography==37.0.4
 Django==3.2
 django-debug-toolbar==3.2.1
 django-ninja==0.13.0
-django-seed==0.3.1
+django-seed==0.2.2
 djangorestframework==3.12.4
 dload==0.6
 docopt==0.6.2
